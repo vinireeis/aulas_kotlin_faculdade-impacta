@@ -12,3 +12,4 @@ fun div5(inicializado: Int){
         x++
     }
 }
+
