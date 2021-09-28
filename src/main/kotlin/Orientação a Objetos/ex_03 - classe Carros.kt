@@ -21,8 +21,8 @@ fun main(){
     for (x in carros){
         if (x.ano < 2000){
             println("Você precisa vender o ${x.modelo}")
+        }
     }
-}
 }
 
 
