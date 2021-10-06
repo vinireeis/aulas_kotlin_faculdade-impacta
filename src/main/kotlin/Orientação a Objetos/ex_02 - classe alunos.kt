@@ -1,5 +1,5 @@
 
-class Aluno(id: Int, nome: String, notas: List<Double>){
+class Aluno3(id: Int, nome: String, notas: List<Double>){
     init {
         println("ID: $id, Nome aluno: $nome, notas: $notas")
     }
@@ -18,7 +18,7 @@ fun main(){
     lista_notas.add(9.2)
     lista_notas.add(6.5)
 
-    var aluno1 = Aluno(1,"Vinicius Reis", lista_notas)
+    var aluno1 = Aluno3(1,"Vinicius Reis", lista_notas)
 }
 
 /* class Aluno(id: Int, nome: String) {
