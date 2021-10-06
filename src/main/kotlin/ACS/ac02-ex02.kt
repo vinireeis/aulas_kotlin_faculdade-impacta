@@ -8,15 +8,9 @@ class Aluno(id: Int, nome: String, curso: String) {
         this.nome = nome
         this.curso = curso
     }
-
-    fun listar_aluno() {
-        println(
-            "Curso: ${this.curso}\nId: ${this.id}\nO nome do aluno: ${this.nome}")
-    }
 }
 
-    fun main() {
-        var obj1 = Aluno(1, "Vinicius Reis", "Sistemas de Informação")
-        obj1.listar_aluno()
-
-    }
+fun main() {
+    var aluno1 = Aluno(1, "Vinicius Dos Reis Oliveira", "Sistemas de Informação")
+    println("Id: ${aluno1.id}\nNome: ${aluno1.nome}\nCurso: ${aluno1.curso}\n")
+}
